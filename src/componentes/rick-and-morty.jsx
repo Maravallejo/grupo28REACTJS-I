@@ -102,7 +102,7 @@ export default function RickAndMorty(){
 
             <div>
                 <Stack spacing={2} direction="row">
-                     <Button variant="contained" onClick={ () => fetchMoreData(info.prev) } >Pagina Anterior</Button>
+                    <Button variant="contained" onClick={ () => fetchMoreData(info.prev) } >Pagina Anterior</Button>
                     <Button variant="contained" onClick={ () => fetchMoreData(info.next) } >Pagina Siguiente</Button>
                 </Stack>
             </div>
