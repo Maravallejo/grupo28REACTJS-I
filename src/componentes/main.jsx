@@ -23,6 +23,7 @@ function Main() {
         <ul>
             <li><Link to="/">Inicio</Link></li>
             <li><Link to="/input">Ejemplo input</Link></li>
+            <li> <Link to="/modal"> Ejemplo del modal</Link></li>
         </ul>         
         <Footer></Footer>
      </>
